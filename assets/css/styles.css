@@ -68,3 +68,6 @@ a slight movement of the header row */
      background-color: #0c4da2;
      outline: 1px solid slategrey;
  }
+ .Survey-div .table>:not(caption)>*>* {
+     padding: 0.75rem 0.5rem !important; 
+ }

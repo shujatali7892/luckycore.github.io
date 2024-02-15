@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title> Announcements</title>
+    <title>Survey Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
@@ -29,7 +29,6 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.css" id="app-style" rel="stylesheet" type="text/css" />
     <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -358,18 +357,18 @@
                                 <span>Feedbacks</span>
                             </a>
                         </li>
-                    <li>
-                        <a href="Surveyform.html" class=" waves-effect">
+                        <li>
+                            <a href="Surveyform.html" class=" waves-effect">
                             <i class="fas fa-poll-h"></i>
-                            <span>Survey Form</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="E-detailing.html" class=" waves-effect">
+                                <span>Survey Form</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="E-detailing.html" class=" waves-effect">
                             <i class="fas fa-info-circle"></i>
-                            <span>E detailing PDF</span>
-                        </a>
-                    </li>
+                                <span>E detailing PDF</span>
+                            </a>
+                        </li>
 
 
                     </ul>
@@ -386,13 +385,12 @@
         <!-- ============================================================== -->
         <div class="main-content">
 
-            <div class="page-content">
+            <div class="page-content Survey-div">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12">
-
                             <div class="page-title">
-                                <h1>News & Announcements </h1>
+                                <h1>Survey Form</h1>
                             </div>
                         </div>
                     </div>
@@ -404,101 +402,156 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <button type="button" class="btn btn-info waves-effect waves-light" id=""
-                                                data-bs-toggle="modal" data-bs-target=".addmessages">
-                                                <i class="fa  fa-user-plus"></i> &nbsp; Add Announcements</button>
+                                                data-bs-toggle="modal" data-bs-target=".addsurvey">
+                                                <i class="fa  fa-user-plus"></i> &nbsp; Add Survey Form</button>
                                         </div>
                                     </div>
                                     <hr>
-                                    <div class="row my-2">
-                                        <div class="col-12">
-                                            <div class="table-box">
-                                                <div class="table-responsive">
-                                                    <table
-                                                        class="table table-bordered table-striped table-hover display">
-                                                        <thead class="table-dark">
-                                                            <tr>
-                                                                <th>#</th>
-                                                                <th>TITLE</th>
-                                                                <th>CREATED ON</th>
-                                                                <th>MESSAGE</th>
-                                                                <th>ACTIONS</th>
-
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody id="body">
-                                                            <tr>
-                                                                <td> 1 </td>
-                                                                <td>Abc</td>
-                                                                <td>
-                                                                    Jan 01 0001 12:00 am
-                                                                </td>
-                                                                <td>
-                                                                    Be financially protected with HBL locally and
-                                                                    internationally. Visit your nearest branch. Enjoy
-                                                                    world-class banking with
-                                                                    1,700+ branches all over Pakistan. Visit your
-                                                                    branch. Established In 1947. Find A Branch.
-                                                                    Services: Consumer Banking,
-                                                                    Islamic Banking, Corporate Banking
-                                                                </td>
-                                                                <td class="d-lg-flex justify-content-between">
-
-                                                                    <button type="button"
-                                                                        class="btn btn-icon btn-primary"
-                                                                        data-bs-toggle="modal"
-                                                                        data-bs-target=".addmessages">
-                                                                        <i class="fa  fa-edit"></i>
-                                                                    </button>
-                                                                    <button type="button"
-                                                                        class="btn btn-icon btn-danger waves-effect waves-light"
-                                                                        id="sa-message1">
-                                                                        <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                    </button>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td> 2 </td>
-                                                                <td>test QA</td>
-                                                                <td>
-                                                                    Jan 01 0001 12:00 am
-                                                                </td>
-                                                                <td>
-                                                                    The point of using Lorem Ipsum is that it has a
-                                                                    more-or-less normal distribution of letters, as
-                                                                    opposed to using
-                                                                    'Content here, content here', making it look like
-                                                                    readable English. Many desktop publishing packages
-                                                                    and web page
-                                                                    editors now use Lorem Ipsum as their default model
-                                                                    text, and a search for 'lorem ipsum' will uncover
-                                                                    many web sites
-                                                                    still in their infancy. Various versions have
-                                                                    evolved over the years, sometimes by accident,
-                                                                    sometimes on purpose
-                                                                    (injected humour and the like).
-                                                                </td>
-                                                                <td class="d-lg-flex justify-content-between">
-
-                                                                    <button type="button"
-                                                                        class="btn btn-icon btn-primary"
-                                                                        data-bs-toggle="modal"
-                                                                        data-bs-target=".addmessages">
-                                                                        <i class="fa  fa-edit"></i>
-                                                                    </button>
-                                                                    <button type="button"
-                                                                        class="btn btn-icon btn-danger waves-effect waves-light"
-                                                                        id="sa-message2">
-                                                                        <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                    </button>
-                                                                </td>
-                                                            </tr>
-
-                                                        </tbody>
-                                                    </table>
-                                                </div>
+                                <div class="row my-2">
+                                    <div class="col-12">
+                                        <h5>Survey Forms List</h5>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="table-box">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered table-striped table-hover display">
+                                                    <thead class="table-dark">
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>Form Type</th>
+                                                            <th>Form Name</th>
+                                                            <th>Form Description</th>
+                                                            <th>Start Date</th>
+                                                            <th>End Date</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody id="body">
+                                                        <tr>
+                                                            <td> 1 </td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for Farmers </td>
+                                                            <td> 2 Nov 18 TVS Survey for Farmers</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> Dec 31, 2018</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info" >
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary"  data-bs-toggle="modal" data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td> 2 </td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info">
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
+                                                                    data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td> 3 </td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for External Influencer</td>
+                                                            <td> 12 Nov 18 TVS Survey for External Influencer</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info">
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
+                                                                    data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td> 4</td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for Farmers </td>
+                                                            <td> 2 Nov 18 TVS Survey for Farmers</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> Dec 31, 2018</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info">
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
+                                                                    data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td> 5 </td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info">
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
+                                                                    data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td> 6 </td>
+                                                            <td>Survey Form</td>
+                                                            <td> 12 Nov 18 TVS Survey for External Influencer</td>
+                                                            <td> 12 Nov 18 TVS Survey for External Influencer</td>
+                                                            <td> Nov 12, 2018</td>
+                                                            <td> 12 Nov 18 TVS Survey for Dealers</td>
+                                                            <td>
+                                                                <a href="FormQuestions.html" type="button" title="add" class="btn btn-sm btn-icon btn-info">
+                                                                    <i class="fa  fa-plus"></i>
+                                                                </a>
+                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
+                                                                    data-bs-target=".editsurvey">
+                                                                    <i class="fa  fa-edit"></i>
+                                                                </button>
+                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
+                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -584,31 +637,93 @@
     <div class="rightbar-overlay"></div>
 
     <!-- modal stat here -->
-    <div class="modal fade addmessages" tabindex="-1" aria-labelledby="addmessageLabel" aria-hidden="true">
-        <div class="modal-dialog">
+    <div class="modal fade addsurvey" tabindex="-1" aria-labelledby="addsurveyLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="addmessageLabel">Rights</h5>
+                    <h5 class="modal-title" id="addsurveyLabel">Add Survey</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="">
                         <div class="row">
-                            <div class="col-12 form-group ">
-                                <label for="title" class="form-label">Title:</label>
-                                <input type="text" class="form-control" name="" id="title"
-                                    placeholder="Enter title here" required>
-                            </div>
-                            <div class="col-12 form-group ">
-                                <label for="title" class="form-label">Message:</label>
-                                <textarea name="" id="" class="form-control w-100" rows="5"></textarea>
+                        <div class="col-md-6 form-group">
+                            <label for="formType" class="form-label">Form Type:  </label>
+                            <select class="form-select" name="" id="formType" required>
+                                <option value="" selected disabled>Select form</option>
+                                <option value="Survey">Survey form</option>
+                                <option value="quiz">Quiz form</option> 
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="formName" class="form-label">Form Name:  </label>
+                            <input type="text" class="form-control" id="formName" placeholder="Enter form name here" required="">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label for="description" class="form-label">Description:</label>
+                            <textarea name="" id="description" class="form-control w-100" rows="2"></textarea>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="StartDate" class="form-label">Start Date:</label>
+                             <input type="date" class="form-control" name="" id="StartDate" value="12-12-2023" required>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="EndDate" class="form-label">End Date:</label>
+                            <input type="date" class="form-control" name="" id="EndDate"  required>
+                        </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-12 text-end">
+                                <button class="btn btn-primary" type="submit">Submit form</button>
+                                <button type="reset" class="btn btn-secondary waves-effect">  Reset </button>
                             </div>
                         </div>
-
-                        <div class="row mt-3">
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <div class="modal fade editsurvey" tabindex="-1" aria-labelledby="editsurveyLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editsurveyLabel">Edit Survey</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="formType" class="form-label">Form Type: </label>
+                                <select class="form-select" name="" id="formType" required> 
+                                    <option value="Survey" selected>Survey form</option>
+                                    <option value="quiz">Quiz form</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="formName" class="form-label">Form Name: </label>
+                                <input type="text" class="form-control" id="formName" placeholder="Survey Form"
+                                    required="">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="description" class="form-label">Description:</label>
+                                <textarea name="" id="description" class="form-control w-100" rows="2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, numquam!
+                                </textarea>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="StartDate" class="form-label">Start Date:</label>
+                                <input type="date" class="form-control" name="" id="StartDate" value="12-12-2023" placeholder="" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="EndDate" class="form-label">End Date:</label>
+                                <input type="date" class="form-control" name="" id="EndDate" required>
+                            </div>
+                        </div>
+                        <div class="row my-3">
                             <div class="col-12 text-end">
-                                <button class="btn btn-primary" type="submit"> <i class="fa fa-save"></i> &nbsp;
-                                    Save</button>
+                                <button class="btn btn-primary" type="submit">Update form</button>
+                                <button type="reset" class="btn btn-secondary waves-effect"> Reset </button>
                             </div>
                         </div>
                     </form>
@@ -638,10 +753,6 @@
     <!-- Responsive examples -->
     <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
     <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
-
-    <!-- <script src="assets/js/pages/dashboard.init.js"></script> -->
-    <script src="assets/libs/sweetalert2/sweetalert2.min.js"></script>
-    <script src="assets/js/pages/sweet-alerts.init.js"></script>
 
     <!-- App js -->
     <script src="assets/js/app.js"></script>
