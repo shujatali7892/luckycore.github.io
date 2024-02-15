@@ -1,0 +1,70 @@
+:root {
+    --text-color: #0c4da2;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --shadow:0 0 10px 1px #d1c6c64a
+}
+.mm-active .active{
+    color: var(--text-color) !important;
+    font-weight: 600 !important;
+}
+
+.mm-active .active i{
+    color: var(--text-color) !important;
+    
+}
+.page-title h1{
+    color: var(--text-color);
+    font-weight:500;
+}
+.table-box {
+    box-shadow: var(--shadow);
+    padding: 10px;
+}
+
+.form-label{
+    margin-bottom: 0px !important;
+    margin-top: 5px !important;
+}
+.modal-header .btn-close { 
+    box-shadow: var(--shadow), var(--shadow), var(--shadow), var(--shadow);
+}
+ 
+ /* Set a fixed scrollable wrapper */
+ .tableWrap {
+     height: 65vh; 
+     overflow: auto;
+    box-shadow: var(--shadow);
+        padding: 10px;
+ }
+
+ /* Set header to stick to the top of the container. */
+  .tableWrap thead tr th {
+     position: sticky !important;
+     top: 0 !important;
+   
+ }
+  .tableWrap tbody tr td { 
+      padding-top: 3px;
+      padding-bottom: 3px;
+  }
+
+ /* If we use border,
+we must use table-collapse to avoid
+a slight movement of the header row */
+  .tableWrap table {
+     border-collapse: collapse;
+ }
+  ::-webkit-scrollbar {
+     width: .3em;
+     height: .3em;
+ }
+
+  ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+ }
+
+  ::-webkit-scrollbar-thumb {
+     background-color: #0c4da2;
+     outline: 1px solid slategrey;
+ }

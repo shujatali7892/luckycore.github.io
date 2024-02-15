@@ -239,6 +239,9 @@ body[data-sidebar=dark] .navbar-brand-box {
   /* background: #252b3b; */
   background: #ffffff  ;
 }
+body[data-sidebar=dark] .navbar-brand-box img{
+  text-align: center;
+}
 body[data-sidebar=dark] .logo-dark {
   display: none;
 }
