@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Form Questions</title>
+    <title>Survey Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
@@ -32,11 +32,14 @@
 
 </head>
 
-<body> 
+<body>
+
     <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
     <!-- Begin page -->
-    <div id="layout-wrapper"> 
+    <div id="layout-wrapper">
+
+
         <header id="page-topbar">
             <div class="navbar-header">
                 <div class="d-flex">
@@ -356,13 +359,13 @@
                         </li>
                         <li>
                             <a href="Surveyform.html" class=" waves-effect">
-                            <i class="fas fa-poll-h"></i>
+                                <i class="fas fa-poll-h"></i>
                                 <span>Survey Form</span>
                             </a>
                         </li>
                         <li>
                             <a href="E-detailing.html" class=" waves-effect">
-                            <i class="fas fa-info-circle"></i>
+                                <i class="fas fa-info-circle"></i>
                                 <span>E detailing PDF</span>
                             </a>
                         </li>
@@ -373,7 +376,10 @@
                 <!-- Sidebar -->
             </div>
         </div>
-        <!-- Left Sidebar End --> 
+        <!-- Left Sidebar End -->
+
+
+
         <!-- ============================================================== -->
         <!-- Start right Content here -->
         <!-- ============================================================== -->
@@ -384,7 +390,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title">
-                                <h1>Testing</h1>
+                                <h1>E-Detailing Products PDF</h1>
                             </div>
                         </div>
                     </div>
@@ -396,77 +402,64 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <button type="button" class="btn btn-info waves-effect waves-light" id=""
-                                                data-bs-toggle="modal" data-bs-target=".addsurvey">
-                                                <i class="fa  fa-user-plus"></i> &nbsp; Add Question</button>
+                                                data-bs-toggle="modal" data-bs-target=".addUpload">
+                                                <i class="fa  fa-folder-plus"></i> &nbsp; Add E-Detailing
+                                                Products</button>
                                         </div>
                                     </div>
                                     <hr>
-                                <div class="row my-2">
-                                   
-                                    <div class="col-12">
-                                        <div class="table-box">
-                                            <div class="table-responsive">
-                                                <table class="table table-bordered table-striped table-hover display">
-                                                    <thead class="table-dark">
-                                                        <tr>
-                                                            <th>#</th>
-                                                            <th>Question</th>
-                                                            <th>Question Type</th>
-                                                            <th>Create Date</th> 
-                                                            <th>Action</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody id="body">
-                                                        <tr>
-                                                            <td> 1 </td>
-                                                            <td>Survey Form</td>
-                                                            <td>
-                                                                 <div class="form-check mb-3">
-                                                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" disabled>
-                                                                <label class="form-check-label" for="formRadios1">
-                                                                    Is Editable
-                                                                </label>
-                                                            </div> </td>
-                                                            <td> Jul 25, 2023</td> 
-                                                            <td>
-                                                                
-                                                                <button type="button" class="btn btn-icon btn-sm btn-primary"  data-bs-toggle="modal" data-bs-target=".editform">
-                                                                    <i class="fa  fa-edit"></i>
-                                                                </button>
-                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
-                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>  2 </td>
-                                                            <td>Survey Form</td>
-                                                            <td>
-                                                                <div class="form-check mb-3">
-                                                                    <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="" disabled>
-                                                                    <label class="form-check-label" for="formRadios1">
-                                                                        Is Editable
-                                                                    </label>
-                                                                </div>
-                                                            </td>
-                                                            <td> Jul 25, 2023</td>
-                                                            <td>
-                                                        
-                                                                <button type="button" class="btn btn-icon btn-sm btn-primary" data-bs-toggle="modal"
-                                                                    data-bs-target=".editform">
-                                                                    <i class="fa  fa-edit"></i>
-                                                                </button>
-                                                                <button type="button" class="btn btn-sm btn-icon btn-danger">
-                                                                    <i class="fa fa-trash" aria-hidden="true"></i>
-                                                                </button>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                    <div class="row my-2">
+                                        <div class="col-12">
+                                            <h5>Upload PDF</h5>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="table-box">
+                                                <div class="table-responsive">
+                                                    <table
+                                                        class="table table-bordered table-striped table-hover display">
+                                                        <thead class="table-dark">
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th>File Name</th>
+                                                                <th>Product </th>
+                                                                <th>Team</th>
+                                                                <th>Description</th>
+                                                                <th>Pages</th>
+                                                                <th>Status</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="body">
+                                                           
+                                                            <tr>
+                                                                <td> 1</td>
+                                                                <td>T 40318 AgriSeeds Punjab</td>
+                                                                <td> T 40318 Sindh</td>
+                                                                <td> Agri Seeds</td>
+                                                                <td> T 40318 AgriSeeds Punjab</td>
+                                                                <td> 1 </td>
+                                                                <td> True </td>
+                                                                <td>
+                                                                   
+                                                                    <button type="button"
+                                                                        class="btn btn-icon btn-sm btn-primary"
+                                                                        data-bs-toggle="modal"
+                                                                        data-bs-target=".editUpload">
+                                                                        <i class="fa  fa-edit"></i>
+                                                                    </button>
+                                                                    <button type="button"
+                                                                        class="btn btn-sm btn-icon btn-danger">
+                                                                        <i class="fa fa-trash" aria-hidden="true"></i>
+                                                                    </button>
+                                                                </td>
+                                                            </tr>
+                                                             
+                                                        </tbody>
+                                                    </table>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                                 </div>
                             </div>
                         </div>
@@ -552,122 +545,106 @@
     <div class="rightbar-overlay"></div>
 
     <!-- modal stat here -->
-    <div class="modal fade addsurvey" tabindex="-1" aria-labelledby="addsurveyLabel" aria-hidden="true">
-        <div class="modal-dialog ">
+    <div class="modal fade addUpload" tabindex="-1" aria-labelledby="addUploadLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="addsurveyLabel">Add Question Form</h5>
+                    <h5 class="modal-title" id="addUploadLabel">Add Upload PDF</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form action="">
                         <div class="row">
-                        <div class="col-12 form-group">
-                            <label for="Question" class="form-label">Question : </label>
-                            <input type="text" class="form-control" id="Question" placeholder="Enter question here" required="">
-                            
-                        </div>
-                        <div class="col-12 form-group">
-                            <label for="AnswerType" class="form-label">Answer Type:</label>
-                        <select class="form-select" name="" id="AnswerType" required>
-                            <option value="" selected disabled>Select answer Type</option>
-                            <option value="single">single Selection</option>
-                            <option value="Multi">Multiple Selection</option>
-                            <option value="text">Text</option>
-                        </select>
-                        </div> 
-                        </div>
-                        <hr>
-                        <div class="row my-3">
-                            <div class="col-12 text-end">
-                                <button class="btn btn-primary btn-sm waves-effect" type="submit">Add Answer</button>
-                                <button type="reset" class="btn btn-sm btn-secondary waves-effect">  Reset </button>
-                            </div>
-                        </div>
-                        <hr>
-                         <div class="row">
-                        <div class="col-12 form-group">
-                            <label for="Answer" class="form-label">Answer 1:</label>
-                            <input type="text" class="form-control" id="Answer" placeholder="Answer 1" required="">
-                            
-                        </div>
-                        <div class="col-12 form-group">
-                            <div class="form-check mb-3">
-                                <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
-                                <label class="form-check-label" for="formRadios1">
-                                    Is Editable
-                                </label>
-                            </div>
-                        </div> 
-                        </div>
-                        <hr>
-                        <div class="row my-3">
-                            <div class="col-12 text-end">
-                                <button class="btn btn-sm btn-primary waves-effect" type="submit">Add Another Answer</button>
-                                <button type="reset" class="btn btn-sm btn-success waves-effect"> Save Answer </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div>
-    <div class="modal fade editform" tabindex="-1" aria-labelledby="editformLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="editformLabel">Edit Question Form</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="">
-                        <div class="row">
-                            <div class="col-12 form-group">
-                                <label for="Question" class="form-label">Question : </label>
-                                <input type="text" class="form-control" id="Question" placeholder="Enter question here"
-                                    required="">
-    
-                            </div>
-                            <div class="col-12 form-group">
-                                <label for="AnswerType" class="form-label">Answer Type:</label>
-                                <select class="form-select" name="" id="AnswerType" required>
-                                    <option value="" selected disabled>Select answer Type</option>
-                                    <option value="single">single Selection</option>
-                                    <option value="Multi">Multiple Selection</option>
-                                    <option value="text">Text</option>
+                            <div class="col-md-6 form-group">
+                                <label for="team" class="form-label">Team: </label>
+                                <select name="" id="team" class="form-select">
+                                    <option value="-1">--Select Team--</option>
+                                    <option value="22">Adhesives NSM</option>
+                                    <option value="11">Agri Seeds</option>
+                                    <option value="10">Agro Chemicals</option>
+                                    <option value="15">Agronomist Agrochemical </option>
+                                    <option value="14">Agronomist Seeds &amp; Vegetable Seeds </option>
+                                    <option value="21">Consumer Chemical NSM</option>
+                                    <option value="25">Crops NSM</option>
+                                    <option value="13">ICIAgri Test Account</option>
+                                    <option value="24">Industrial Chemicals NSM</option>
+                                    <option value="23">Master Batch NSM</option>
+                                    <option value="17">National Manager Cotton</option>
+                                    <option value="16">National Manager production</option>
+                                    <option value="19">PU NSM</option>
+                                    <option value="18">Research</option>
+                                    <option value="27">Test 1</option>
+                                    <option value="28">Test 2</option>
+                                    <option value="26">Textile NSM</option>
+
                                 </select>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="row my-3">
-                            <div class="col-12 text-end">
-                                <button class="btn btn-primary btn-sm waves-effect" type="submit">Add Answer</button>
-                                <button type="reset" class="btn btn-sm btn-secondary waves-effect"> Reset </button>
+                            <div class="col-md-6 form-group">
+                                <label for="Products" class="form-label">Products: </label>
+                                <select id="Products" class="form-select">
+
+                                    <option value="-1">--Select Product--</option>
+                                    <option value="2011">BAM Futura 46</option>
+                                    <option value="2012">BAMFutura 1 Pearl White 1377</option>
+                                    <option value="2013">CALABOND 130</option>
+                                    <option value="2014">Calabond Flex</option>
+                                    <option value="2015">Calabond Plus</option>
+                                    <option value="2016">Calabond Tech</option>
+                                    <option value="2017">CALABOND WD</option>
+                                    <option value="2018">CALABOND WD 5</option>
+                                    <option value="2019">CALABOND WD10</option>
+                                    <option value="2020">CALABOND WD2</option>
+                                    <option value="2021">CALABOND WD20</option>
+                                    <option value="2022">CALABOND WD200</option>
+                                    <option value="2023">CALABOND WD30</option>
+                                    <option value="2024">CALABOND WDH</option>
+                                    <option value="2025">CALABOND WDM</option>
+                                    <option value="2026">CALABOND WDP</option>
+                                    <option value="2027">CALABOND WDPH</option>
+                                    <option value="2028">Hotmelts BAM418</option>
+                                    <option value="2029">Super Glue 1.5G PE Tube</option>
+                                    <option value="2030">Super Glue 20G PE Bottle</option>
+                                    <option value="2031">Super Glue 50G PE Bottle</option>
+                                </select>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-12 form-group">
-                                <label for="Answer" class="form-label">Answer 1:</label>
-                                <input type="text" class="form-control" id="Answer" placeholder="Answer 1" required="">
-    
+                            <div class="col-md-6 form-group">
+                                <label for="FileName" class="form-label">File Name:</label>
+                                <input type="text" class="form-control" name="" id="FileName"
+                                    placeholder="Enter file Name" required>
                             </div>
-                            <div class="col-12 form-group">
-                                <div class="form-check mb-3">
-                                    <input class="form-check-input" type="radio" name="formRadios" id="formRadios1"
-                                        checked="">
-                                    <label class="form-check-label" for="formRadios1">
-                                        Is Editable
+                            <div class="col-md-6 form-group">
+                                <label for="Description" class="form-label">Description </label>
+                                <textarea name="" id="" class="form-control w-100" rows="1"
+                                    placeholder="Enter description"></textarea>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="StartDate" class="form-label">Start Date:</label>
+                                <input type="date" class="form-control" name="" id="StartDate" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="EndDate" class="form-label">End Date:</label>
+                                <input type="date" class="form-control" name="" id="EndDate" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="customFile" class="form-label">Select File:</label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="customFile">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group my-auto">
+                                <label for="Status " class="form-label">Status:</label>
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="checkbox" id="formCheck1">
+                                    <label class="form-check-label" for="formCheck1">
+                                        mark if active
                                     </label>
                                 </div>
                             </div>
                         </div>
-                        <hr>
                         <div class="row my-3">
                             <div class="col-12 text-end">
-                                <button class="btn btn-sm btn-primary waves-effect" type="submit">Add Another
-                                    Answer</button>
-                                <button type="reset" class="btn btn-sm btn-success waves-effect"> Save Answer </button>
+                                <button class="btn btn-primary" type="submit">Submit  </button>
+                                <button type="reset" class="btn btn-secondary waves-effect" data-bs-dismiss="modal" aria-label="Close"> Cancel </button>
                             </div>
                         </div>
                     </form>
@@ -675,6 +652,114 @@
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div>
+    <div class="modal fade editUpload" tabindex="-1" aria-labelledby="editUploadLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editUploadLabel">Edit Upload PDF</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <label for="team" class="form-label">Team: </label>
+                                <select name="" id="team" class="form-select">
+                                    <option value="-1">--Select Team--</option>
+                                    <option value="22">Adhesives NSM</option>
+                                    <option value="11" selected>Agri Seeds</option>
+                                    <option value="10">Agro Chemicals</option>
+                                    <option value="15">Agronomist Agrochemical </option>
+                                    <option value="14">Agronomist Seeds &amp; Vegetable Seeds </option>
+                                    <option value="21">Consumer Chemical NSM</option>
+                                    <option value="25">Crops NSM</option>
+                                    <option value="13">ICIAgri Test Account</option>
+                                    <option value="24">Industrial Chemicals NSM</option>
+                                    <option value="23">Master Batch NSM</option>
+                                    <option value="17">National Manager Cotton</option>
+                                    <option value="16">National Manager production</option>
+                                    <option value="19">PU NSM</option>
+                                    <option value="18">Research</option>
+                                    <option value="27">Test 1</option>
+                                    <option value="28">Test 2</option>
+                                    <option value="26">Textile NSM</option>
+    
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="Products" class="form-label">Products: </label>
+                                <select id="Products" class="form-select">
+    
+                                    <option value="-1"> T 40318 Sindh</option>
+                                    <option value="2011">BAM Futura 46</option>
+                                    <option value="2012">BAMFutura 1 Pearl White 1377</option>
+                                    <option value="2013">CALABOND 130</option>
+                                    <option value="2014">Calabond Flex</option>
+                                    <option value="2015">Calabond Plus</option>
+                                    <option value="2016">Calabond Tech</option>
+                                    <option value="2017">CALABOND WD</option>
+                                    <option value="2018">CALABOND WD 5</option>
+                                    <option value="2019">CALABOND WD10</option>
+                                    <option value="2020">CALABOND WD2</option>
+                                    <option value="2021">CALABOND WD20</option>
+                                    <option value="2022">CALABOND WD200</option>
+                                    <option value="2023">CALABOND WD30</option>
+                                    <option value="2024">CALABOND WDH</option>
+                                    <option value="2025">CALABOND WDM</option>
+                                    <option value="2026">CALABOND WDP</option>
+                                    <option value="2027">CALABOND WDPH</option>
+                                    <option value="2028">Hotmelts BAM418</option>
+                                    <option value="2029">Super Glue 1.5G PE Tube</option>
+                                    <option value="2030">Super Glue 20G PE Bottle</option>
+                                    <option value="2031">Super Glue 50G PE Bottle</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="FileName" class="form-label">File Name:</label>
+                                <input type="text" class="form-control" name="" id="FileName" placeholder="T 40318 AgriSeeds Punjab"
+                                    required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="Description" class="form-label">Description </label>
+                                <textarea name="" id="" class="form-control w-100" rows="1"
+                                    placeholder="Enter description"  placeholder="T 40318 AgriSeeds Punjab"></textarea>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="StartDate" class="form-label">Start Date:</label>
+                                <input type="date" class="form-control" name="" id="StartDate" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="EndDate" class="form-label">End Date:</label>
+                                <input type="date" class="form-control" name="" id="EndDate" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="customFile" class="form-label">Select File:</label>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" id="customFile">
+                                </div>
+                            </div>
+                            <div class="col-md-6 form-group my-auto">
+                                <label for="Status " class="form-label">Status:</label>
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="checkbox" id="formCheck1" checked>
+                                    <label class="form-check-label" for="formCheck1">
+                                        mark if active
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-3">
+                            <div class="col-12 text-end">
+                                <button class="btn btn-success" type="submit">Update </button>
+                                <button type="reset" class="btn btn-secondary waves-effect"   data-bs-dismiss="modal" aria-label="Close"> Cancel </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
